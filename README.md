@@ -27,25 +27,27 @@ jupyter notebook
 
 Start here to learn the basics:
 
-| Notebook | Description | Time | Status |
-|----------|-------------|------|--------|
-| [01_getting_started.ipynb](tutorials/01_getting_started.ipynb) | First steps with Multimodal Universe, loading PLAsTiCC data | 5 min | ✅ Ready |
-| [02_data_types.ipynb](tutorials/02_data_types.ipynb) | Working with images, spectra, time series, and catalogs | 10 min | ✅ Ready |
-| [03_cross_matching.ipynb](tutorials/03_cross_matching.ipynb) | Cross-matching Gaia and SDSS catalogs | 10 min | ✅ Ready |
+| Notebook | Description | Time |
+|----------|-------------|------|
+| [01_getting_started.ipynb](tutorials/01_getting_started.ipynb) | First steps with Multimodal Universe, loading PLAsTiCC data | 5 min |
+| [02_data_types.ipynb](tutorials/02_data_types.ipynb) | Working with images, spectra, time series, and catalogs | 10 min |
+| [03_cross_matching.ipynb](tutorials/03_cross_matching.ipynb) | Cross-matching Gaia and SDSS catalogs | 10 min |
+| [04_multisurvey_crossmatch.ipynb](tutorials/04_multisurvey_crossmatch.ipynb) | Advanced multi-survey cross-matching (Chandra + Gaia + SDSS) | 15 min |
 
-All tutorials are available as both `.py` scripts (tested) and `.ipynb` notebooks.
+All tutorials are fully tested and available as both `.py` scripts and `.ipynb` notebooks.
 
 ## 🔬 Research Examples
 
-Complete project examples you can adapt (coming soon):
+Complete project examples you can adapt for your own research:
 
-| Notebook | Research Area | Key Techniques | Status |
-|----------|---------------|----------------|--------|
-| stellar_variability_tess.ipynb | Variable Stars | Time series, period finding | 🚧 Planned |
-| galaxy_morphology_decals.ipynb | Galaxy Classification | CNNs, transfer learning | 🚧 Planned |
-| color_magnitude_gaia.ipynb | Stellar Populations | Parallaxes, CMDs | 🚧 Planned |
-| structure_3d_sdss.ipynb | Large-Scale Structure | Redshifts, 3D visualization | 🚧 Planned |
-| xray_optical_chandra.ipynb | Multi-wavelength | AGN classification | 🚧 Planned |
+| Notebook | Research Area | Key Techniques |
+|----------|---------------|----------------|
+| [stellar_variability_tess.ipynb](examples/stellar_variability_tess.ipynb) | Variable Stars | Time series analysis, Lomb-Scargle periodograms, phase folding |
+| [color_magnitude_gaia.ipynb](examples/color_magnitude_gaia.ipynb) | Stellar Populations | Parallaxes, absolute magnitudes, HR diagrams |
+| [xray_sources_chandra.ipynb](examples/xray_sources_chandra.ipynb) | Multi-wavelength Astronomy | X-ray sources, optical counterparts, source classification |
+| [galaxy_morphology_gz10.ipynb](examples/galaxy_morphology_gz10.ipynb) | Galaxy Classification | Random Forest, CNNs, transfer learning (17K galaxies, 10 classes) |
+
+All examples are fully tested with real data from the Multimodal Universe dataset.
 
 ## 📊 Available Datasets
 
@@ -134,6 +136,12 @@ dataset = load_dataset("MultimodalUniverse/[dataset_name]",
 - **Instructor**: Prof. Josh Speagle (Fridays 1-3 PM, AB 206)
 - **TA**: Alicia Savelli (Tuesdays 2-4 PM, Zoom)
 - **GitHub Issues**: Report bugs or request features
+
+## 🙏 Acknowledgements
+
+These tutorials and examples were developed with assistance from [Claude Code](https://claude.com/claude-code), Anthropic's AI coding assistant. Claude Code helped create well-tested, reproducible code examples and ensured all notebooks execute correctly with the Multimodal Universe dataset.
+
+The [Multimodal Universe dataset](https://github.com/MultimodalUniverse/MultimodalUniverse) is made available under CC BY 4.0 license by the MultimodalUniverse team and hosted by the Flatiron Institute.
 
 ---
 
