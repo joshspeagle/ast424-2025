@@ -182,6 +182,8 @@ cython_debug/
 
 # Scratch files
 scratch/
+tutorials/data/*
+examples/data/*
 
 # Claude files
 .claude/
