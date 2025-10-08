@@ -4,13 +4,6 @@ Welcome to the AST424 course repository! This collection of notebooks will help 
 
 ## Quick Start
 
-### Option 1: Google Colab (Recommended)
-1. Click on any notebook link below
-2. Select "Open in Colab"
-3. Run cells in order (Shift+Enter)
-4. No installation required!
-
-### Option 2: Local Jupyter
 ```bash
 # Install required packages
 pip install datasets numpy matplotlib pandas astropy scipy
@@ -51,7 +44,7 @@ All examples are fully tested with real data from the Multimodal Universe datase
 
 ## 📊 Available Datasets
 
-The Multimodal Universe includes data from 25+ astronomical surveys:
+The Multimodal Universe includes data from 25+ astronomical surveys, including:
 
 ### Images
 - **Galaxy10 DECaLS**: 17,736 labeled galaxy images
@@ -134,12 +127,12 @@ dataset = load_dataset("MultimodalUniverse/[dataset_name]",
 ## 📧 Support
 
 - **Instructor**: Prof. Josh Speagle (Fridays 1-3 PM, AB 206)
-- **TA**: Alicia Savelli (Tuesdays 2-4 PM, Zoom)
+- **TA**: Alicia Savelli (Tuesdays 2-4 PM, CITA Idealab)
 - **GitHub Issues**: Report bugs or request features
 
 ## 🙏 Acknowledgements
 
-These tutorials and examples were developed with assistance from [Claude Code](https://claude.com/claude-code), Anthropic's AI coding assistant. Claude Code helped create well-tested, reproducible code examples and ensured all notebooks execute correctly with the Multimodal Universe dataset.
+These tutorials and examples were developed with assistance from [Claude Code](https://claude.com/claude-code), Anthropic's AI coding assistant. Claude Code helped create well-tested, reproducible code examples and ensured all notebooks executed correctly with the Multimodal Universe dataset.
 
 The [Multimodal Universe dataset](https://github.com/MultimodalUniverse/MultimodalUniverse) is made available under CC BY 4.0 license by the MultimodalUniverse team and hosted by the Flatiron Institute.
 
